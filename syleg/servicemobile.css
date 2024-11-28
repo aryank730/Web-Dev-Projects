@@ -1,0 +1,280 @@
+@media (max-width: 767px) {
+   /* CSS code specific to mobile devices */
+
+   body::-webkit-scrollbar {
+      display: none;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+   }
+
+   .navigss {
+      display: none;
+   }
+
+   .lop {
+      position: fixed;
+      margin: -0.5rem 1rem;
+      height: 1.5rem;
+      z-index: 2;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+   }
+
+   /* mobile navigation */
+   .mobilenavivds {
+      display: block;
+      z-index: 5;
+      position: fixed;
+      bottom: 0rem;
+      width: 100%;
+      justify-content: center;
+   }
+
+   .mobilebarscale {
+      display: flex;
+      background: #ffffff;
+      height: 40px;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 6px 6px 0px 0px;
+      box-shadow: rgba(255, 255, 255, ) 0px 5px 15px,
+         rgba(255, 255, 255, ) 5px 10px 15px;
+   }
+
+   .mobibuttonvds {
+      justify-content: space-around;
+   }
+
+   .mobiconns {
+      text-align: center;
+      margin-top: 8px;
+      font-weight: bolder;
+   }
+
+   .sectionone {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 8px;
+      /* margin-top: 1rem; */
+      margin: 3.5rem 0.3rem 0.3rem 0.3rem;
+      padding: 8px;
+      justify-content: space-around;
+   }
+
+   .babysec {
+      margin-top: 1rem;
+      background: #d6c3c3;
+      height: auto;
+      border: 2px black;
+      border-radius: 5px;
+      margin: auto;
+      justify-content: space-around;
+      padding: 0.8rem;
+      /* width: 48%; */
+   }
+
+   .proitem {
+      justify-content: center;
+      margin-left: 0rem;
+      /* margin-right: -1rem; */
+      /* margin-top: 1rem; */
+      margin-bottom: 1rem;
+      width: 125px;
+   }
+
+   :hover.proitem{
+      margin-left: none;
+      border-radius: 12px;
+      animation-delay: none;
+   }
+
+   .imafo{
+      width: 100px;
+      height: 100px;
+   }
+
+
+
+
+   /* footer */
+
+   footer {
+      background: #000;
+      color: white;
+      opacity: 0.9;
+      border-radius: 14px 14px 0px 0px;
+      padding: auto;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 10rem;
+   }
+
+   .fologo {
+      position: sticky;
+      top: 2rem;
+      z-index: +10;
+      font-size: 17px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+   }
+
+   .flecop {
+      cursor: pointer;
+      display: block;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding-bottom: 34px;
+   }
+
+   .heed {
+      font-weight: bold;
+      font-size: larger;
+   }
+
+   .conten {
+      padding: 2rem;
+      font-weight: lighter;
+      opacity: 0.7;
+   }
+
+   :hover.heed {
+      color: #A6129C;
+      opacity: 0.8;
+   }
+
+   :hover.conten {
+      color: #A6129C;
+      opacity: 1;
+   }
+
+   :hover.meenu {
+      font-size: 20px;
+      color: var(--orange);
+   }
+
+   .buton {
+      display: none;
+      float: right;
+      padding: 4rem;
+   }
+
+   .lasrli {
+      margin: 2rem 1rem -6rem 1rem;
+      opacity: 0.6;
+      font-size: 20px;
+      text-align: justify;
+   }
+
+   /* footer contact */
+
+   #fookre {
+      display: block;
+      margin: 0rem 0.5rem;
+      padding: auto;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding: auto;
+   }
+
+   .imgfree {
+      font-family: cursive;
+      font-size: 1rem;
+      margin-top: -1rem;
+   }
+
+   .flecop {
+      display: none;
+   }
+
+   .contactbybutton {
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+   }
+
+   .duaol {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding: 10px;
+      margin-left: 5rem;
+      padding-left: 4rem;
+      text-decoration: none;
+      -webkit-text-decoration-line: none;
+      text-decoration-line: none;
+   }
+
+   .buttondf {
+      width: 8.2rem;
+      height: 2.5rem;
+      background: #fdfbfb;
+      border: 2px solid rgb(108, 108, 108);
+      color: #000;
+      border-radius: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      -webkit-text-decoration-line: none;
+      text-decoration-line: none;
+      margin: 6px;
+   }
+
+   .foglam {
+      display: none;
+      font-size: 12px;
+      opacity: 0.5;
+   }
+
+   html {
+      scroll-behavior: smooth;
+   }
+
+   .dooter {
+      display: none;
+   }
+
+   .fouboxerse {
+      padding: 0rem 0rem 4rem 8rem;
+      margin: auto;
+   }
+
+   .foiubtyn {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      width: 10%;
+      height: 42px;
+   }
+
+   .firyou>img {
+      height: 32px;
+      width: 32px;
+      margin-left: 12px;
+      padding-left: 12px;
+   }
+
+   .firyou {
+      padding: 0px;
+      border-radius: 5px;
+   }
+
+   .folloupps {
+      display: none;
+   }
+}

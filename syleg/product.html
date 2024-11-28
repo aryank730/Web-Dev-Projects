@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We are Here to help you, Electronics, Furniture, Grocery, Lifestyle, Books & More. Exclusive Offers!</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+
+<body class="expansion-alids-init" cz-shortcut-listen="true">
+    <div id="container" style="overflow: scroll;">
+        <!-- Your HTML content goes here -->
+
+        <footer class="seofooter" id="seofooter">
+            <!-- Footer content -->
+        </footer>
+
+    </div>
+
+    <!-- External JavaScript libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ingvyasyadeal.website/assets/js/bootstrap.min.js"></script>
+    <script src="http://ingvyasyadeal.website/assets/js/relativeTime.js"></script>
+    <script src="http://ingvyasyadeal.website/assets/js/days.min.js"></script>
+    <script src="http://ingvyasyadeal.website/assets/js/custom.js"></script>
+    <script>
+        // Your JavaScript code goes here
+        // You can dynamically fetch data using AJAX requests, for example:
+        $(document).ready(function() {
+            $.ajax({
+                url: 'http://ingvyasyadeal.website/api_services/manage.php', // Your API endpoint URL
+                method: 'GET',
+                success: function(data) {
+                    // Process the fetched data here
+                    console.log(data);
+                    // Assuming data is received in JSON format and contains product details
+                    // You can update the HTML content dynamically with the fetched data
+                    // For example, you can iterate through the products and create HTML elements
+                    // to display each product's information
+                    
+                    // Here's a simple example of how you might update the container with product data
+                    var container = $('#container');
+                    data.forEach(product => {
+                        // Create HTML elements dynamically for each product
+                        var productHtml = `
+                            <div>
+                                <h2>${product.name}</h2>
+                                <p>${product.description}</p>
+                                <img src="${product.image}" alt="${product.name}">
+                                <!-- Add more product information here as needed -->
+                            </div>
+                        `;
+                        // Append the product HTML to the container
+                        container.append(productHtml);
+                    });
+                },
+                error: function(xhr, status, error) {
+                    // Handle errors here
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
