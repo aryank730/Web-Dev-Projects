@@ -1,0 +1,258 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+   /* CSS code specific to tablets */
+
+   :root {
+      --purple: #550154;
+      --lightpurple: #A6129C;
+      --white: #ffffff;
+      --orange: #FB6425;
+   }
+
+   body {
+      margin: -3.9rem 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Gill Sans", sans-serif;
+   }
+
+   nav {
+      background: rgb(0, 0, 0);
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.9697128851540616) 40%, rgba(85, 1, 84, 1) 67%);
+   }
+
+   /* copied */
+
+   .lop {
+      position: fixed;
+      top: 1rem;
+      font-size: 10px;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 1% 2%;
+      width: 6rem;
+      height: 3rem;
+      text-align: center;
+      border-radius: 10px;
+      background-color: black;
+   }
+
+   .mees {
+      /* display: flex; */
+      margin: 0% 3%;
+
+   }
+
+   .mees>.lak>p {
+      font-size: 45px;
+      color: #ffffff;
+      font-weight: bold;
+      padding-top: 3rem;
+   }
+
+   .mees>.lak>p>span {
+      color: #aa0da7;
+      /* padding-left: 8%; */
+      /* padding-top: 4rem; */
+   }
+
+   .lak>span {
+      color: #ffffff;
+   }
+
+   .note {
+      color: #ffffff;
+      font-size: 12px;
+      margin-bottom: -6rem;
+   }
+
+   .mees>img {
+      /* display: none; */
+      align-items: center;
+      border-radius: 10px;
+      justify-content: center;
+      margin-bottom: 1rem;
+      /* padding-top: -4rem; */
+      /* margin-left: 16%; */
+      height: 14rem;
+
+   }
+
+   .navig{
+      display: block;
+   }
+
+   .inso {
+      /* display: flex; */
+      margin: 1rem;
+      justify-content: space-around;
+      color: #2c2b2c;
+   }
+
+   .inso>img {
+      height: 8rem;
+      border-radius: 15px;
+   }
+
+   .navigs{
+      /* display: none; */
+   float: right;
+   margin: -8.5% 5% 0% 0%;
+   position: sticky;
+   top: 2%; 
+   padding:0% 4%;
+}
+
+.navigs
+
+
+   .inso>span {
+      padding: 2.5rem 4rem;
+      font-size: 25px;
+      font-weight: bold;
+   }
+
+   .inso>span>span {
+      color: var(--orange);
+   }
+
+   .quotee:not(p) {
+      font-size: 35px;
+      font-weight: bold;
+      margin-left: 15rem;
+      opacity: 0.6;
+   }
+
+   .what {
+      font-weight: bold;
+      margin-left: 19rem;
+      color: var(--orange);
+   }
+
+   .hone {
+      width: 75%;
+      height: 1px;
+      display: flex;
+      color: #2c2b2c;
+      border-radius: 5px;
+      background: #000;
+      position: sticky;
+      top: 23px;
+      z-index: -1;
+
+   }
+
+   .menpro {
+      position: sticky;
+      top: 2.5rem;
+   }
+
+   .desc {
+      margin: 10rem 7rem;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .numbu {
+      font-size: 20px;
+      font-weight: bold;
+      color: var(--lightpurple);
+   }
+
+   .disckk {
+      font-size: 30px;
+      font-weight: bold;
+      /* color: var(--orange); */
+   }
+
+   .desc>img {
+      width: 50%;
+      border-radius: 15px;
+   }
+
+   /* reverse posts */
+   .descc {
+      margin: 7rem;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .descc>img {
+      width: 50%;
+      border-radius: 15px;
+   }
+
+   .revera:first-child {
+      order: 2;
+   }
+
+   .imaga:last-child {
+      order: 1;
+   }
+
+
+   /* footer */
+
+   footer {
+      background: #000;
+      color: white;
+      opacity: 0.9;
+      border-radius: 14px 14px 0px 0px;
+      padding: auto;
+      justify-content: center;
+   }
+
+   .fologo {
+      font-size: 40px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+   }
+
+   .flecop {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 34px;
+   }
+
+   .heed {
+      font-weight: bold;
+      font-size: larger;
+   }
+
+   .conten {
+      padding: 2rem;
+      font-weight: lighter;
+      opacity: 0.7;
+   }
+
+   :hover.heed {
+      color: #A6129C;
+      opacity: 0.8;
+   }
+
+   :hover.conten {
+      color: #A6129C;
+      opacity: 1;
+   }
+
+   :hover.meenu {
+      font-size: 20px;
+      color: var(--orange);
+   }
+
+   .imago {
+      margin: -40px -60px -120px 65px;
+   }
+
+   .buton {
+      float: right;
+      padding: 4rem;
+   }
+
+   .foglam {
+      font-size: 12px;
+      opacity: 0.5;
+   }
+
+}
