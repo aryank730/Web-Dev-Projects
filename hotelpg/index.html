@@ -101,8 +101,8 @@
          </span><br> of tailored
          <span> relaxation</span>. <br>
          <div class="imgfd">
-            <a href="https://www.facebook.com/profile.php?id=61554590015520"><img src="images/facebook.png" alt=""></a>
-            <a href="https://www.instagram.com/tranquilluxurypg"><img src="images/instagram.png" alt=""> </a>
+            <a href=""><img src="images/facebook.png" alt=""></a>
+            <a href=""><img src="images/instagram.png" alt=""> </a>
             <!-- <a href=""></a><img src="images/pinterest.png" alt=""></a> -->
          </div>
       </span>
@@ -164,7 +164,7 @@
                in-room TVs. A perfect blend of relaxation and entertainment awaits you.</p> <br>
             <div class="">
                <img src="images/tv-monitor.png" alt="">&#10240;
-               <img src="images/view.png" alt="">
+               <a onclick="askCredentials()" target="_blank" rel="noopener noreferrer"><img src="images/view.png" alt=""></a>
             </div>
          </div>
          <img src="images/romthree.jpeg" alt="">
@@ -256,13 +256,13 @@
    <div class="vogr">
       <h3>Our Location : Gurgaon , sector 59</h3>
    </div>
-   <div class="bgrn">
+   <!-- <div class="bgrn">
       <div class=""><iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.7211797179566!2d77.0408491!3d28.397488199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2345c2d1d083%3A0x837969dedd49ab2c!2sTranquil%20Luxury%20PG!5e0!3m2!1sen!2sin!4v1703432156824!5m2!1sen!2sin"
             width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       <img width="320rem" src="images/buildingn.jpeg" alt="">
-   </div>
+   </div> -->
    <br>
 
 
@@ -274,19 +274,19 @@
       <div id="fookre">
 
          <div class="piccs">
-            <img class="imagoq" height="200" src="images/logoster.jpg" alt="">
+            <!-- <img class="imagoq" height="200" src="images/logoster.jpg" alt=""> -->
             <!-- <p class="imgfree">Feel Free to contact us 🤟</p> -->
          </div>
          <!-- <div class="fologo">Syleg</div> -->
          <div class="contactbybutton">
             <div class="duaol">
                <!-- FIRST BUTTON -->
-               <a href="https://wa.me/8130349684" target="_blank">
+               <a href="https://wa.me/" target="_blank">
                   <div class="buttondf">Whatsapp &nbsp;<img src="syimg/what.png" width="24" height="24" alt=""></div>
                </a>
                <!-- seconf contact line -->
-               <a href="tel:+91 8130349684">
-                  <div class="buttondf"><img width="24" height="24" src="images/call.png" alt=""> &nbsp; 8130349684
+               <a href="tel:+91 ">
+                  <div class="buttondf"><img width="24" height="24" src="images/call.png" alt=""> &nbsp; 
                   </div>
                </a>
             </div>
@@ -308,29 +308,29 @@
          <div class="mailds" style="cursor: pointer;">
             <!-- first mail -->
 
-            <a href="tel:+91 8130349684">
+            <a href="tel:+91">
                <div class="mailbuuns">
                   &nbsp;<img src="syimg/call.png" width="24" height="24" alt="" srcset=""
                      style="border-radius: 6px; margin-top: 12px;">&nbsp; &nbsp;
-                  <p type="tel">+91 8130349684</p>
+                  <p type="tel">+91 </p>
                </div>
             </a>
 
             <!-- second mail -->
 
-            <!-- <a href="mailto:services@tranquilpg.com">
+            <!-- <a href="mailto:">
                <div class="mailbuuns">
                   &nbsp;<img src="syimg/email.png" width="24" height="24" alt="" srcset=""
                      style="border-radius: 6px; margin-top: 12px;">&nbsp; &nbsp;
-                  <p type="email">services@tranquilpg.com</p>
+                  <p type="email"></p>
                </div>
             </a> -->
 
-            <a href="mailto:xyz@tranquilpg.com">
+            <a href="mailto:xyz@pg.com">
                <div class="mailbuuns">
                   &nbsp;<img src="syimg/email.png" width="24" height="24" alt="" srcset=""
                      style="border-radius: 6px; margin-top: 12px;">&nbsp; &nbsp;
-                  <p type="email">xyz@tranquilpg.com</p>
+                  <p type="email">xyz@pg.com</p>
                </div>
             </a>
             <!-- third mail -->
@@ -341,7 +341,7 @@
             <!-- addres goes here -->
             <address>
                <div class="mailbuuns">
-                  &nbsp;<img src="images/placeholder.png" width="24" height="24" alt="" srcset=""
+                  &nbsp;<img src="images/" width="24" height="24" alt="" srcset=""
                      style="border-radius: 6px; margin-top: 12px;">&nbsp; &nbsp;
                   <p>Tranquil Luxury PG, Sector 69, Gurugram, Haryana 122101</p>
                </div>
@@ -352,6 +352,30 @@
       </div>
    </footer>
    </div>
+
+
+   <script>
+      // This is the predefined username and password for validation
+      const validUsername = "mybirthday23";
+      const validPassword = "Happy$chill247";
+
+      function askCredentials() {
+          // Ask for the unique name (username)
+          let username = prompt("Enter your username:");
+
+          // Ask for the password
+          let password = prompt("Enter your password:");
+
+          // Validate the credentials
+          if (username === validUsername && password === validPassword) {
+              alert("Credentials correct! Redirecting...");
+              window.location.href = "click.html";  // Redirect to another page if valid
+          } else {
+              alert("Invalid username or password. Please try again.");
+          }
+      }
+  </script>
+
 
 </body>
 

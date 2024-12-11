@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroimg {
+  margin-top: 3%;
+}
+
+.magictext {
+  text-align: center;
+  font-family: cursive;
+  margin: 2% 10%;
+  font-weight: 800;
+  opacity: 0.8;
+  color: rgb(74, 74, 72);
+  font-size: larger;
+}
+
+.setbanner {
+  width: 90%;
+  display: block;
+  border-radius: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mainflex{
+  gap: 1rem;
+  margin: 0rem 8rem;
+}
+
+.giveglass {
+  background: rgba(81, 78, 78, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 28px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+
+  padding: 2rem;
+  width: auto;
+  margin: 2rem 0rem;
+  justify-content: space-around;
+}
+
+.bannerup{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.bannerup>img{
+  width: 50%;
+}
+
+.bannerdown{
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.quotesixx{
+  /* width: 30%; */
+  padding: 4rem;
+  padding: auto;
+  margin: auto;
+  font-size: 28px;
+  opacity: 0.8;
+
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.bannerdown>img{
+  width: 50%;
+}
+
+.giveflex{
+  display: flex;
+  width: auto;
+}
+
+.outimg{
+  border-radius: 16px;
+
+}
+
+.imag11{
+  border-radius: 16px;
+  width: 300px;
+}
+
+.img12{
+  border-radius: 16px;
+  width: 300px;
+}
+
+.outimg2{
+  margin-top: 10rem;
+  padding-top: 4rem;
+}
+
+.y.mandatory-scroll-snapping {
+  scroll-snap-type: y mandatory;
+}
+
+.container > div {
+  text-align: center;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .bannerdown{margin-top: 22rem;
+    z-index: -1;
+  }
+
+  .bannerup{
+    display: none;
+  }
+
+  .magictext {
+    font-size: 12px;
+  }
+
+  .giveglass {
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+  width: auto;
+  justify-content: space-around;
+  }
+
+  .imag11{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+  }
+  
+  .img12{
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 200px; */
+  }
+
+  .mainflex{
+    /* gap: 1rem; */
+    margin: 0rem 0.5rem;
+  }
+
+  .giveflex{
+    display: block;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .quotesixx{
+    padding: 0.5rem;
+    font-size: 18px;
+  }
+
+  .outimg2{
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .wrapper{
+    width: 100%;
+    margin: 0rem;
+  }
+
+  h2{
+    font-size: 2em;
+    color: #7d2ae8;
+    margin: 15px 0;
+  }
+
+}
+
+
+.wrapper{
+  width: 90%;
+  padding: auto;
+  margin: 4rem;
+  background: #dea0a0;
+  height: 40rem;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column  ;
+
+
+  position: relative;
+
+}
+
+i{
+  font-size: 7.5em;
+  color: rgb(230, 192, 55);
+  border: 5px rgba(81, 78, 78, 0.5) transparent;
+  outline: 3px rgb(55, 54, 55);
+}
+
+h2{
+  font-size: 2em;
+  color: #353535;
+  margin: 15px 0;
+}
+
+.btn-group{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+button{
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid #7d2ae8;
+  outline: none;
+  cursor: pointer;
+  box-sizing: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+
+button:nth-child(1){
+  margin-left: -200px;
+  background: #7d2ae8;
+}
+
+button:nth-child(2){
+  margin-left: 200px;
+  background: #7d2ae8;
+}
